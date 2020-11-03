@@ -1,0 +1,36 @@
+body {
+    background: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#instruction-text {
+    margin-top: -15px;
+}
+
+#textarea {
+    height: 65vh;
+    width: 70vw;
+    background-color: #333;
+    color: white;
+    border: 3px white solid;
+}
+
+.main-container :last-child {
+    font-size: 1.5rem;
+}
+
+#char-counter {
+    font-size: 1.5rem;
+}
+
+::placeholder {
+    color: white;
+    opacity: 20%;
+}
